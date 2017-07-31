@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionFinder", "ExceptionFinder\ExceptionFinder.csproj", "{59BD5CD2-66CA-4776-9B86-9A5EF91325D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionFinder.Tests.Scenarios", "ExceptionFinder.Tests.Scenarios\ExceptionFinder.Tests.Scenarios.csproj", "{A52E3B3E-AA67-4E4F-9ECC-22D47991B15C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionFinder.Tests", "ExceptionFinder.Tests\ExceptionFinder.Tests.csproj", "{97670AB9-2EDB-4A62-B3BB-9D2AFE9935C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24DE7FB9-83E8-4D42-9413-C876F1059B6B}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblyVerifier.dll = AssemblyVerifier.dll
+		ExceptionFinder.Tests.Scenarios.XML = ExceptionFinder.Tests.Scenarios.XML
+		ExceptionFinder.vsmdi = ExceptionFinder.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		Reflector.cfg = Reflector.cfg
+		Spackle.dll = Spackle.dll
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExceptionFinder.Tests.FilterScenarios", "ExceptionFinder.Tests.FilterScenarios\ExceptionFinder.Tests.FilterScenarios.vbproj", "{5CC97DBC-478A-4D09-8170-4C8EC3A789C8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs06.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ExceptionFinder.Tests\\ExceptionFinder.Tests.csproj
+		SccProjectName1 = ExceptionFinder.Tests
+		SccLocalPath1 = ExceptionFinder.Tests
+		SccProjectUniqueName2 = ExceptionFinder\\ExceptionFinder.csproj
+		SccProjectName2 = ExceptionFinder
+		SccLocalPath2 = ExceptionFinder
+		SccProjectUniqueName3 = ExceptionFinder.Tests.Scenarios\\ExceptionFinder.Tests.Scenarios.csproj
+		SccProjectName3 = ExceptionFinder.Tests.Scenarios
+		SccLocalPath3 = ExceptionFinder.Tests.Scenarios
+		SccProjectUniqueName4 = ExceptionFinder.Tests.FilterScenarios\\ExceptionFinder.Tests.FilterScenarios.vbproj
+		SccProjectName4 = ExceptionFinder.Tests.FilterScenarios
+		SccLocalPath4 = ExceptionFinder.Tests.FilterScenarios
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ExceptionFinder.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59BD5CD2-66CA-4776-9B86-9A5EF91325D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BD5CD2-66CA-4776-9B86-9A5EF91325D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BD5CD2-66CA-4776-9B86-9A5EF91325D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BD5CD2-66CA-4776-9B86-9A5EF91325D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52E3B3E-AA67-4E4F-9ECC-22D47991B15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52E3B3E-AA67-4E4F-9ECC-22D47991B15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52E3B3E-AA67-4E4F-9ECC-22D47991B15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52E3B3E-AA67-4E4F-9ECC-22D47991B15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97670AB9-2EDB-4A62-B3BB-9D2AFE9935C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97670AB9-2EDB-4A62-B3BB-9D2AFE9935C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97670AB9-2EDB-4A62-B3BB-9D2AFE9935C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97670AB9-2EDB-4A62-B3BB-9D2AFE9935C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC97DBC-478A-4D09-8170-4C8EC3A789C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC97DBC-478A-4D09-8170-4C8EC3A789C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC97DBC-478A-4D09-8170-4C8EC3A789C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC97DBC-478A-4D09-8170-4C8EC3A789C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

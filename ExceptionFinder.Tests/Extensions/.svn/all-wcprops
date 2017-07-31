@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Extensions
+END
+ITypeReferenceExtensionsTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Extensions/ITypeReferenceExtensionsTests.cs
+END
+IInstructionExtensionsTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Extensions/IInstructionExtensionsTests.cs
+END
+OpCodeExtensionsGetExceptionsTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Extensions/OpCodeExtensionsGetExceptionsTests.cs
+END
+OpCodeExtensionsGetLoadLocalIndexTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Extensions/OpCodeExtensionsGetLoadLocalIndexTests.cs
+END
+IDocumentationProviderExtensionsTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Extensions/IDocumentationProviderExtensionsTests.cs
+END

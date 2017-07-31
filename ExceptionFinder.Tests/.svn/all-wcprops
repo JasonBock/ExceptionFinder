@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19165/ExceptionFinder/ExceptionFinder.Tests
+END
+MethodAlreadyVisitedExceptionTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/MethodAlreadyVisitedExceptionTests.cs
+END
+ExceptionTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9415/ExceptionFinder/ExceptionFinder.Tests/ExceptionTests.cs
+END
+FaultAssemblyGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/FaultAssemblyGenerator.cs
+END
+ExceptionFinder.Tests.csproj.vspscc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/8951/ExceptionFinder/ExceptionFinder.Tests/ExceptionFinder.Tests.csproj.vspscc
+END
+ExceptionFinder.Tests.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19164/ExceptionFinder/ExceptionFinder.Tests/ExceptionFinder.Tests.csproj
+END
+AssemblyGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/AssemblyGenerator.cs
+END
+ExceptionAnalyzerTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8951/ExceptionFinder/ExceptionFinder.Tests/ExceptionAnalyzerTests.cs
+END
+MockInstruction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/16332/ExceptionFinder/ExceptionFinder.Tests/MockInstruction.cs
+END
+ExceptionLocationLoadingAssemblyGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/ExceptionLocationLoadingAssemblyGenerator.cs
+END
+BaseTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/BaseTests.cs
+END
+GlobalSuppressions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/18987/ExceptionFinder/ExceptionFinder.Tests/GlobalSuppressions.cs
+END
+MockMethodDeclaration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/16332/ExceptionFinder/ExceptionFinder.Tests/MockMethodDeclaration.cs
+END
+AssemblyTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/17701/ExceptionFinder/ExceptionFinder.Tests/AssemblyTests.cs
+END
+FrameworkInitialization.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/FrameworkInitialization.cs
+END
+StressTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/17701/ExceptionFinder/ExceptionFinder.Tests/StressTests.cs
+END
+AnalyzerTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/15334/ExceptionFinder/ExceptionFinder.Tests/AnalyzerTests.cs
+END

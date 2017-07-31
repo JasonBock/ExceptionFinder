@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19165/ExceptionFinder/ExceptionFinder.Tests/Analyzers
+END
+LeakedExceptionDiscoveryStatusesTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Analyzers/LeakedExceptionDiscoveryStatusesTests.cs
+END
+ThrowingScenariosTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/18987/ExceptionFinder/ExceptionFinder.Tests/Analyzers/ThrowingScenariosTests.cs
+END
+NativeCallScenariosTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Analyzers/NativeCallScenariosTests.cs
+END
+RecursiveCallScenariosTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Analyzers/RecursiveCallScenariosTests.cs
+END
+ExceptionLocationLoadingScenariosTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Analyzers/ExceptionLocationLoadingScenariosTests.cs
+END
+FilterScenariosTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Analyzers/FilterScenariosTests.cs
+END
+OpCodeScenariosTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Analyzers/OpCodeScenariosTests.cs
+END
+FaultScenariosTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Analyzers/FaultScenariosTests.cs
+END
+ExceptionHandlerScenariosTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Analyzers/ExceptionHandlerScenariosTests.cs
+END
+LeakedExceptionsCollectionTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/18987/ExceptionFinder/ExceptionFinder.Tests/Analyzers/LeakedExceptionsCollectionTests.cs
+END
+LeakedExceptionsMethodInstructionsAnalyzerTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/18987/ExceptionFinder/ExceptionFinder.Tests/Analyzers/LeakedExceptionsMethodInstructionsAnalyzerTests.cs
+END
+ArgumentsExceptionTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19165/ExceptionFinder/ExceptionFinder.Tests/Analyzers/ArgumentsExceptionTests.cs
+END
+LeakedExceptionTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests/Analyzers/LeakedExceptionTests.cs
+END
+CallStackInformationTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/18987/ExceptionFinder/ExceptionFinder.Tests/Analyzers/CallStackInformationTests.cs
+END

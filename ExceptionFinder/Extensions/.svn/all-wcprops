@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/18987/ExceptionFinder/ExceptionFinder/Extensions
+END
+ListOfIInstructionExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder/Extensions/ListOfIInstructionExtensions.cs
+END
+IDocumentationProviderExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/15354/ExceptionFinder/ExceptionFinder/Extensions/IDocumentationProviderExtensions.cs
+END
+HashSetExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8951/ExceptionFinder/ExceptionFinder/Extensions/HashSetExtensions.cs
+END
+IAssemblyLocationExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder/Extensions/IAssemblyLocationExtensions.cs
+END
+OpCodeFiltersExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/16303/ExceptionFinder/ExceptionFinder/Extensions/OpCodeFiltersExtensions.cs
+END
+DictionaryExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9275/ExceptionFinder/ExceptionFinder/Extensions/DictionaryExtensions.cs
+END
+IInstructionCollectionExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder/Extensions/IInstructionCollectionExtensions.cs
+END
+ObjectExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/15337/ExceptionFinder/ExceptionFinder/Extensions/ObjectExtensions.cs
+END
+ITypeReferenceExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder/Extensions/ITypeReferenceExtensions.cs
+END
+OpCodeExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder/Extensions/OpCodeExtensions.cs
+END
+IInstructionExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/18987/ExceptionFinder/ExceptionFinder/Extensions/IInstructionExtensions.cs
+END

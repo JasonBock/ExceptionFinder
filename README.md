@@ -1,0 +1,2 @@
+# ExceptionFinder for Reflector
+A long time ago, I wrote this extension for Reflector, which would find all the unhandled exceptions that could be raised from calling a method. I decided to put the code here. I have no idea if it compiles or works with the latest version of Reflector, but I may "redo" this based on Roslyn in the future.

@@ -1,0 +1,6 @@
+TODOs
+
+Maybe add caching for visited methods in the view.
+Need find the exception hierarchy to properly make the catch hierarchy (TypeHierarchy?)
+Handle COM calls (automatically add a ComException?)
+Make all of the test target methods dynamic (i.e. create the code one using Emit to have full control over the opcodes)

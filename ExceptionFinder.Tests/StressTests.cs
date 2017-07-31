@@ -1,0 +1,111 @@
+﻿using ExceptionFinder.Analyzers;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Reflector.CodeModel;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace ExceptionFinder.Tests
+{
+	[TestClass]
+	public sealed class StressTests : BaseTests
+	{
+		[TestMethod, Timeout(Int32.MaxValue), Ignore]
+		public void AnalyzeAllMscorlibMethods()
+		{
+			var methods = from IAssembly assembly in AssemblyTests.Manager.Assemblies
+							  where assembly.Name == "mscorlib"
+							  from IModule module in assembly.Modules
+							  from ITypeDeclaration type in module.Types
+							  from IMethodDeclaration method in type.Methods
+							  select method;
+
+			var nonExceptionNotObjectTypesFound = false;
+			var methodCount = 0;
+			var foundAnalysisError = false;
+
+			foreach(IMethodDeclaration method in methods)
+			{
+				methodCount++;
+				
+				try
+				{
+					var analyzer = new MethodExceptionAnalyzer(method);
+					analyzer.Analyze();
+
+					if(analyzer.LeakedExceptions.NonExceptions.Count > 0)
+					{
+						nonExceptionNotObjectTypesFound |= this.ReportNonExceptions(analyzer);
+						
+						if(nonExceptionNotObjectTypesFound)
+						{
+							break;						
+						}
+					}
+				}
+				catch(Exception ex)
+				{
+					foundAnalysisError = true;
+					this.ReportAnalysisException(method, ex);
+					break;
+				}
+			}
+
+			this.TestContext.WriteLine("Number of methods analyzed: " + methodCount);
+			
+			Assert.IsTrue(methodCount > 0);
+			
+			if(foundAnalysisError)
+			{
+				Assert.Fail("Analysis error occurred.");
+			}
+
+			if(nonExceptionNotObjectTypesFound)
+			{
+				Assert.Fail("Non-exception based exceptions found that were not System.Object.");
+			}
+		}
+
+		private void ReportAnalysisException(IMethodDeclaration method, Exception ex)
+		{
+			this.TestContext.WriteLine("Exception occurred: " + ex.GetType().FullName);
+			this.TestContext.WriteLine("\tMessage: " + ex.Message);
+			this.TestContext.WriteLine("\tStack Trace: " + ex.StackTrace);
+
+			var type = method.DeclaringType as ITypeDeclaration;
+			this.TestContext.WriteLine("\tType: " + type.Namespace + "." + type.Name);
+			this.TestContext.WriteLine("\tMethod: " + method.ToString());
+
+			this.TestContext.WriteLine(string.Empty);
+		}
+
+		private bool ReportNonExceptions(MethodExceptionAnalyzer analyzer)
+		{
+			var nonExceptionNotObjectTypesFound = false;
+			
+			foreach(var pair in analyzer.LeakedExceptions.NonExceptions)
+			{
+				if(!pair.Key.Type.IsAssignableFrom(typeof(object)))
+				{
+					this.TestContext.WriteLine(
+						"Non-exception type that is not System.Object: " + pair.Key.Type.FullName);
+
+					foreach(var location in pair.Value)
+					{
+						var type = location.Method.DeclaringType as ITypeDeclaration;
+						this.TestContext.WriteLine("\tMethod declaring type: " + type.Namespace + "." + type.Name);
+						this.TestContext.WriteLine("\tMethod: " + location.Method.ToString() +
+							 (location.Method.Static ? " (static)" : " (instance)"));
+						this.TestContext.WriteLine("\tLocation: " + location.Instruction.Offset);
+					}				
+					
+					nonExceptionNotObjectTypesFound = true;
+				}
+			}
+
+			this.TestContext.WriteLine(string.Empty);
+			
+			return nonExceptionNotObjectTypesFound;
+		}
+	}
+}

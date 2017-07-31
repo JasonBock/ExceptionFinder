@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExceptionFinder.Tests.Scenarios</name>
+    </assembly>
+    <members>
+        <member name="M:ExceptionFinder.Tests.Scenarios.ThrowingScenarios.ThrowReportedExceptions(System.Int32)">
+            <summary>
+            This is a method to test XML comments
+            </summary>
+            <param name="x">The switch to throw different exceptions.</param>
+            <exception cref="T:System.DivideByZeroException">Thrown when <paramref name="x"/> is 0.</exception>
+            <exception cref="T:System.ArgumentException">Thrown when <paramref name="x"/> is 1.</exception>
+            <exception cref="T:System.InvalidCastException">This is reported, but analysis shouldn't find it.</exception>
+            <exception cref="!:IHaveNoIdeaWhatThisIsException">Testing what happens with an unknown type.</exception>
+        </member>
+    </members>
+</doc>

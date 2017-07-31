@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/18929/ExceptionFinder/ExceptionFinder.Tests.Scenarios
+END
+NestedTypeScenarios.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/16478/ExceptionFinder/ExceptionFinder.Tests.Scenarios/NestedTypeScenarios.cs
+END
+ClassDiagram1.cd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15220/ExceptionFinder/ExceptionFinder.Tests.Scenarios/ClassDiagram1.cd
+END
+GlobalSuppressions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/17244/ExceptionFinder/ExceptionFinder.Tests.Scenarios/GlobalSuppressions.cs
+END
+OpCodeScenarios.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/16301/ExceptionFinder/ExceptionFinder.Tests.Scenarios/OpCodeScenarios.cs
+END
+InternalClassThatThrowsExceptionOnConstruction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/15316/ExceptionFinder/ExceptionFinder.Tests.Scenarios/InternalClassThatThrowsExceptionOnConstruction.cs
+END
+ExceptionHandlerScenarios.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests.Scenarios/ExceptionHandlerScenarios.cs
+END
+ExceptionFinder.Tests.Scenarios.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/17244/ExceptionFinder/ExceptionFinder.Tests.Scenarios/ExceptionFinder.Tests.Scenarios.csproj
+END
+ExceptionFinder.Tests.Scenarios.csproj.vspscc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/10709/ExceptionFinder/ExceptionFinder.Tests.Scenarios/ExceptionFinder.Tests.Scenarios.csproj.vspscc
+END
+ThrowingScenarios.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/17244/ExceptionFinder/ExceptionFinder.Tests.Scenarios/ThrowingScenarios.cs
+END
+CustomException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/17244/ExceptionFinder/ExceptionFinder.Tests.Scenarios/CustomException.cs
+END
+NativeCallScenarios.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests.Scenarios/NativeCallScenarios.cs
+END
+NativeMethods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10709/ExceptionFinder/ExceptionFinder.Tests.Scenarios/NativeMethods.cs
+END
+RecursiveCallScenarios.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/17152/ExceptionFinder/ExceptionFinder.Tests.Scenarios/RecursiveCallScenarios.cs
+END

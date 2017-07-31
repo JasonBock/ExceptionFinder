@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRunConfiguration name="Local Test Run" id="f06b9479-4c22-4198-9cce-b0649575b469" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <Description>This is a default test run configuration for a local test run.</Description>
+  <CodeCoverage enabled="true">
+    <Regular>
+      <CodeCoverageItem binaryFile="ExceptionFinder\bin\Debug\ExceptionFinder.dll" pdbFile="ExceptionFinder\bin\Debug\ExceptionFinder.pdb" instrumentInPlace="true" />
+      <CodeCoverageItem binaryFile="ExceptionFinder.Tests\bin\Debug\ExceptionFinder.Tests.dll" pdbFile="ExceptionFinder.Tests\bin\Debug\ExceptionFinder.Tests.pdb" instrumentInPlace="true" />
+    </Regular>
+  </CodeCoverage>
+  <Deployment>
+    <DeploymentItem filename="ExceptionFinder.Tests.Scenarios.XML" />
+    <DeploymentItem filename="Reflector.cfg" />
+  </Deployment>
+  <TestTypeSpecific />
+</TestRunConfiguration>
